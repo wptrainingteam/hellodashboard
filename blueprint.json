@@ -1,0 +1,46 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Add a Dashboard message and a guide",
+		"description": "Blueprint that adds a plugin to create a dashboard and upload some content linked from the Dashboard",
+		"author": "bph",
+		"categories": ["Content", "dashboard"]
+	},
+	"features": {
+		"networking": true
+	},
+	"steps": [
+		{
+			"step": "login"
+		},
+		{
+			"step": "mkdir",
+			"path": "/wordpress/wp-content/plugins/hellodashboard"
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/plugins/hellodashboard/hellodashboard.php",
+			"data": {
+				"resource": "url",
+				"url": "https://gutenbergtimes.com/wp-content/uploads/2020/11/hellodashboard/hellodashboard.txt"
+			}
+		},
+		{
+			"step": "activatePlugin",
+			"pluginPath": "hellodashboard/hellodashboard.php"
+		},
+        {
+			"step": "importWxr",
+			"file": {
+				"resource": "url",
+				"url": "https://gutenbergtimes.com/wp-content/uploads/2020/11/hellodashboard/playgroundguide.xml"
+			}
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/mu-plugins/rewrite.php",
+			"data": "<?php add_action( 'after_setup_theme', function() { global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); } );"
+		}
+	],
+    "landingPage": "/wp-admin/?welcome=0"
+}
