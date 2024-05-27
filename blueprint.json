@@ -22,7 +22,7 @@
 			"path": "/wordpress/wp-content/plugins/hellodashboard/hellodashboard.php",
 			"data": {
 				"resource": "url",
-				"url": "https://gutenbergtimes.com/wp-content/uploads/2020/11/hellodashboard/hellodashboard.txt"
+				"url": "https://raw.githubusercontent.com/bph/hellodashboard/main/hellodashboard.txt"
 			}
 		},
 		{
@@ -33,7 +33,7 @@
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://gutenbergtimes.com/wp-content/uploads/2020/11/hellodashboard/playgroundguide.xml"
+				"url": "https://raw.githubusercontent.com/bph/hellodashboard/main/playgroundguide.xml"
 			}
 		},
 		{

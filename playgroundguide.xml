@@ -162,7 +162,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://gutenbergtimes.com/wp-content/uploads/2020/11/hellodashboard/Montreal-Room-with-a-view.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/bph/hellodashboard/main/Montreal-Room-with-a-view.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/05/Montreal-Room-with-a-view.jpg]]></wp:meta_value>
@@ -195,7 +195,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://gutenbergtimes.com/wp-content/uploads/2020/11/hellodashboard/Venice-Condolieres-web.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/bph/hellodashboard/main/Venice-Condolieres-web.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/05/Venice-Condolieres-web.jpg]]></wp:meta_value>
@@ -228,7 +228,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://gutenbergtimes.com/wp-content/uploads/2020/11/hellodashboard/Eisbachwells-snow-2023.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/bph/hellodashboard/main/Eisbachwells-snow-2023.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/05/Eisbachwells-snow-2023.jpg]]></wp:meta_value>
