@@ -22,7 +22,7 @@
 			"path": "/wordpress/wp-content/plugins/hellodashboard/hellodashboard.php",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/bph/hellodashboard/main/hellodashboard.txt"
+				"url": "https://raw.githubusercontent.com/bph/hellodashboard/main/hellodashboard.php"
 			}
 		},
 		{
