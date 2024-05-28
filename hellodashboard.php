@@ -1,8 +1,8 @@
 <?php
 /*
  * Plugin Name:       Hello Dashboard
- * Plugin URI:        https://icodeforapurpose/hellodashboard
- * Description:       Examples of Dashboard widget
+ * Plugin URI:        https://github.com/bph/hellodashboard/blob/main/hellodashboard.php
+ * Description:       Example of a Dashboard widget
  * Version:           0.0.1
  * Requires at least: 6.5
  * Requires PHP:      7.4
@@ -10,7 +10,6 @@
  * Author URI:        https://icodeforapurpose.com
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Update URI:        https://icodeforapurpose.com/hellodashboard
  * Text Domain:       gt
  */
 
