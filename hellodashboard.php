@@ -50,8 +50,8 @@ add_action( 'wp_dashboard_setup', 'gt_add_dashboard_widgets' );
  */
 function gt_dashboard_widget_render() {
     $dashboard_content = '
-<p>If you want to learn more about Playground and the tools, visit the <a href="/category/playground">Playground Guide</a></p> 
-<p> For questions connect via email <a href="mailto:birgit.pauli@gmail.com">with Birgit</a> 
+<p>Learn more about Playground and its tools and visit the <a href="/category/playground">Playground Guide</a></p> 
+<p>For questions connect with <a href="mailto:birgit.pauli@gmail.com">Birgit via email</a>
 ';
 	echo $dashboard_content;
 }
