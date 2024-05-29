@@ -4,3 +4,9 @@ A blueprint for WordPress Playground to add a Dashboard widget to the WP-admin s
 [<kbd> <br> Try it out <br> </kbd>](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/bph/hellodashboard/main/blueprint.json)
 
 ![Dashboard Widget](https://github.com/bph/hellodashboard/blob/main/Screenshot%202024-05-27%20at%2022.23.23.png)
+
+---
+
+![Screenshot of Playground view](https://github.com/bph/hellodashboard/blob/main/Screenshot%202024-05-27%20at%2022.23.45.png)
+
+
