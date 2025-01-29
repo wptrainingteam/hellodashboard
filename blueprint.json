@@ -27,7 +27,7 @@
 		 "options": {
 		   "activate": true
 		 }
-	}
+	},
         {
 		"step": "importWxr",
 		"file": {
