@@ -9,38 +9,37 @@
 	"features": {
 		"networking": true
 	},
+	"login": true,
 	"steps": [
+
 		{
-			"step": "login"
-		},
-		{
-			"step": "mkdir",
-			"path": "/wordpress/wp-content/plugins/hellodashboard"
-		},
-		{
-			"step": "writeFile",
-			"path": "/wordpress/wp-content/plugins/hellodashboard/hellodashboard.php",
-			"data": {
-				"resource": "url",
-				"url": "https://raw.githubusercontent.com/bph/hellodashboard/main/hellodashboard.php"
-			}
-		},
-		{
-			"step": "activatePlugin",
-			"pluginPath": "hellodashboard/hellodashboard.php"
-		},
+		 "step": "installPlugin",
+		 "pluginData": {
+		   "resource": "literal:directory",
+		   "name": "hellodashboard",
+		   "files": {
+		     "hellodashboard.php": {
+		       "resource": "url",
+		       "url": "https://raw.githubusercontent.com/bph/hellodashboard/main/hellodashboard.php"
+		     }
+		   }
+		 },
+		 "options": {
+		   "activate": true
+		 }
+	}
         {
-			"step": "importWxr",
-			"file": {
-				"resource": "url",
-				"url": "https://raw.githubusercontent.com/bph/hellodashboard/main/playgroundguide.xml"
-			}
-		},
-		{
-			"step": "writeFile",
-			"path": "/wordpress/wp-content/mu-plugins/rewrite.php",
-			"data": "<?php add_action( 'after_setup_theme', function() { global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); } );"
+		"step": "importWxr",
+		"file": {
+			"resource": "url",
+			"url": "https://raw.githubusercontent.com/bph/hellodashboard/main/playgroundguide.xml"
 		}
+		},
+	{
+		"step": "writeFile",
+		"path": "/wordpress/wp-content/mu-plugins/rewrite.php",
+		"data": "<?php add_action( 'after_setup_theme', function() { global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); } );"
+	}
 	],
     "landingPage": "/wp-admin/?welcome=0"
 }
