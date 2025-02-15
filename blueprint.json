@@ -3,6 +3,10 @@
 	"features": {
 		"networking": true
 	},
+	"preferredVersions": {
+	"php": "7.4",   
+	"wp": "latest" 
+	},
 	"login": true,
 	"siteOptions": {
 		"permalink_structure": "/%postname%/"
