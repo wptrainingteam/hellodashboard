@@ -4,8 +4,10 @@
 		"networking": true
 	},
 	"login": true,
+	"siteOptions": {
+		"permalink_structure": "/%postname%/"
+	},
 	"steps": [
-
 		{
 			"step": "mkdir",
 			"path": "/wordpress/wp-content/plugins/hellodashboard"
@@ -38,18 +40,7 @@
 				"resource": "url",
 				"url": "https://github.com/wptrainingteam/hellodashboard/blob/main/playgroundguide.xml"
 			}
-		},
-		{
-			"step": "writeFile",
-			"path": "/wordpress/wp-content/mu-plugins/rewrite.php",
-			"data": "<?php add_action( 'after_setup_theme', function() { global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); } );"
-		},
-
-	{
-		"step": "writeFile",
-		"path": "/wordpress/wp-content/mu-plugins/rewrite.php",
-		"data": "<?php add_action( 'after_setup_theme', function() { global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); } );"
-	}
+		}
 	],
     "landingPage": "/wp-admin/?welcome=0"
 }
