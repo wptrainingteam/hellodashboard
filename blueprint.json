@@ -5,7 +5,7 @@
 	},
 	"preferredVersions": {
 	"php": "7.4",   
-	"wp": "latest" 
+	"wp": "6.7.2" 
 	},
 	"login": true,
 	"siteOptions": {
