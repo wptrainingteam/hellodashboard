@@ -198,7 +198,7 @@
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<wp:attachment_url>
-			<![CDATA[https://raw.githubusercontent.com/wptrainingteam/hellodashboard/main/Venice-Condolieres-web.jpg]]>
+			<![CDATA[https://github.com/wptrainingteam/hellodashboard/raw/main/Venice-Condolieres-web.jpg]]>
 		</wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
@@ -233,7 +233,7 @@
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<wp:attachment_url>
-			<![CDATA[raw.githubusercontent.com/wptrainingteam/hellodashboard/main/Eisbachwells-snow-2023.jpg]]>
+			<![CDATA[https://raw.githubusercontent.com/wptrainingteam/hellodashboard/main/Eisbachwells-snow-2023.jpg]]>
 		</wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
