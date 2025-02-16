@@ -163,7 +163,7 @@
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<wp:attachment_url>
-		<![CDATA[https://raw.githubusercontent.com/wptrainingteam/hellodashboard/main/Montreal-Room-with-a-view.jpg]]>
+		<![CDATA[https://raw.githubusercontent.com/bph/hellodashboard/main/Montreal-Room-with-a-view.jpg]]>
 		</wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
