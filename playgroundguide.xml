@@ -162,7 +162,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/bph/hellodashboard/main/Montreal-Room-with-a-view.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/wptrainingteam/hellodashboard/main/Montreal-Room-with-a-view.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/05/Montreal-Room-with-a-view.jpg]]></wp:meta_value>
@@ -195,7 +195,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://github.com/wptrainingteam/hellodashboard/raw/main/Venice-Condolieres-web.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/wptrainingteam/hellodashboard/main/Venice-Condolieres-web.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/05/Venice-Condolieres-web.jpg]]></wp:meta_value>
