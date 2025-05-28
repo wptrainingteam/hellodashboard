@@ -13,6 +13,13 @@
 	},
 	"steps": [
 		{
+			"step": "updateUserMeta",
+			"meta": {
+				"admin_color": "modern"
+			},
+			"userId": 1
+		},
+		{
 			"step": "mkdir",
 			"path": "/wordpress/wp-content/plugins/hellodashboard"
 		},
