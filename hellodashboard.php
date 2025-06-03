@@ -22,7 +22,7 @@
 function gt_add_dashboard_widgets() {
 	wp_add_dashboard_widget(
 		'gt_dashboard_widget',                          // Widget slug.
-		esc_html__( 'Welcome to Playground!', 'gt' ), // Title.
+		esc_html__( '🙋‍♀️ Welcome to Playground!', 'gt' ), // Title.
 		'gt_dashboard_widget_render'                    // Display function.
 	); 
     // Globalize the metaboxes array, this holds all the widgets for wp-admin.
