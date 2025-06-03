@@ -3,7 +3,7 @@ A blueprint for WordPress Playground to add a Dashboard widget to the WP-admin s
  
 [![Test on WordPress Playground](https://github.com/wptrainingteam/hellodashboard/blob/main/Teston-WordPress-Playground.svg)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wptrainingteam/hellodashboard/main/blueprint.json)
 
-![Dashboard Widget](https://github.com/wptrainingteam/hellodashboard/blob/main/gt-dashboard-widget.png | width=250)
+<img src="https://github.com/wptrainingteam/hellodashboard/blob/main/gt-dashboard-widget.png" width="250">
 
 ---
 
