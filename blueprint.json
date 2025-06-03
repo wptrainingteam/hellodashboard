@@ -11,6 +11,7 @@
 	"siteOptions": {
 		"permalink_structure": "/%postname%/"
 	},
+	"landingPage": "/wp-admin/?welcome=0",
 	"steps": [
 		{
 			"step": "updateUserMeta",
@@ -20,6 +21,12 @@
 			"userId": 1
 		},
 		{
+			"step": "installTheme",
+			"themeData": {
+               		   "resource": "wordpress.org/themes",
+               		   "slug": "twentytwentyfour"
+           	},
+		{
 			"step": "mkdir",
 			"path": "/wordpress/wp-content/plugins/hellodashboard"
 		},
@@ -27,31 +34,20 @@
 			"step": "writeFile",
 			"path": "/wordpress/wp-content/plugins/hellodashboard/hellodashboard.php",
 			"data": {
-				"resource": "url",
-				"url": "https://github.com/wptrainingteam/hellodashboard/blob/main/hellodashboard.php"
-			}
-		},
-		{
-			"step": "installTheme",
-			"themeData": {
-                "resource": "wordpress.org/themes",
-                "slug": "twentytwentyfour"
-            },
-            "options": {
-                "activate": true
-			}
+			    "resource": "url",
+			    "url": "https://github.com/wptrainingteam/hellodashboard/blob/main/hellodashboard.php"
+				}
 		},
 		{
 			"step": "activatePlugin",
 			"pluginPath": "hellodashboard/hellodashboard.php"
 		},
-        {
+      		  {
 			"step": "importWxr",
 			"file": {
-				"resource": "url",
-				"url": "https://github.com/wptrainingteam/hellodashboard/blob/main/playgroundguide.xml"
+			    "resource": "url",
+			    "url": "https://github.com/wptrainingteam/hellodashboard/blob/main/playgroundguide.xml"
 			}
 		}
-	],
-    "landingPage": "/wp-admin/?welcome=0"
+	]
 }
