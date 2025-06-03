@@ -25,7 +25,8 @@
 			"themeData": {
                		   "resource": "wordpress.org/themes",
                		   "slug": "twentytwentyfour"
-           	},
+           		}
+		},
 		{
 			"step": "mkdir",
 			"path": "/wordpress/wp-content/plugins/hellodashboard"
