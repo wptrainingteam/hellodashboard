@@ -10,4 +10,5 @@ A blueprint for WordPress Playground to add a Dashboard widget to the WP-admin s
 
 
 - See demo in [Developer Hours: Creating WordPress Playground Blueprints for Testing and Demos](https://www.youtube.com/watch?v=gKrij8V3nK0&list=PL1pJFUVKQ7ETApyQQlt3pLNjPx2HrQwl5&index=8&t=1309s&pp=iAQB)
-- Used in [presentation at WordCamp Asia](https://wordpress.tv/2025/04/30/create-a-demo-with-playground/) 
+- Used in [presentation at WordCamp Asia](https://wordpress.tv/2025/04/30/create-a-demo-with-playground/)
+- See also Workshop at WordCamp Europe 2025: [From Zero to Demo: Mastering WordPress Playground Blueprints](https://wordpress.tv/2025/06/07/from-zero-to-demo-mastering-wordpress-playground-blueprints/)  
